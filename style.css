@@ -8,4 +8,45 @@
 
 body{
     font-family: 'Bai Jamjuree';
+  background-image: linear-gradient(white, violet);
+  
 }
+
+footer{
+    background-color: purple;
+    color: white;
+    position: fixed;
+    height: 2rem;
+    width: 100%;
+    
+}
+
+footer p{
+text-align: center;
+font-size: 0.9rem;
+margin: 0.5rem;
+}
+
+#conteiner{
+    display: flex;
+}
+
+.cartao{
+    margin: 1rem;
+    background-color: violet;
+    height: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
