@@ -56,7 +56,7 @@ border-radius: 0.6rem;
 font-size: 1vw;
 margin: 0.6rem;
 border: 1px solid var(--text-color);
-
+backface-visibility: hidden;
 }
 p{
     color: #00ff37;
@@ -71,6 +71,7 @@ p{
 }
 .cartao-pergunta1, .cartao-resposta1{
     margin: 1rem;
+    backface-visibility: hidden;
 
 }
 
@@ -78,8 +79,15 @@ p{
     transform: rotateY(180deg);
 }
 
+.cartao-resposta1{
+    transform: rotateY(180deg);
+}
 
-
+.cartao-conteudo p{
+margin-top: 2rem;
+padding: 2rem;
+margin-bottom: 2rem;
+}
 
 
 
